@@ -1,0 +1,11 @@
+{
+  "name": "grideditingp5",
+  "module": "index.tsx",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
