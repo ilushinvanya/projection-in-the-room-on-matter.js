@@ -20,6 +20,6 @@
 
 Я реализовал подобную проекцию используя браузер, JavaScript, p5.js и Matter.js.
 
-# [Демо]()
+## [Демо](https://ilushinvanya.github.io/projection-in-the-room-on-matter.js/main/)
 
 ![demo.gif](demo.gif)
