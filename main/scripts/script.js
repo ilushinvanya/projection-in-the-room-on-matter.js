@@ -245,7 +245,7 @@ function statue() {
 	grounds.push(dogGround)
 }
 async function http(modelPath) {
-	let url = '../models/' + modelPath;
+	let url = './models/' + modelPath;
 	let response = await fetch(url);
 	return await response.json(); // читаем ответ в формате JSON
 }
