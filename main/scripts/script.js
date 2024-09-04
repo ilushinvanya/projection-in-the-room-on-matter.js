@@ -269,27 +269,27 @@ function setup() {
 
 	statue()
 
-	fetchAndCreate('east-cabinet-top.json')
-	fetchAndCreate('east-cabinet-base.json')
+	fetchAndCreate('./east-cabinet-top.json')
+	fetchAndCreate('./east-cabinet-base.json')
 
-	fetchAndCreate('west-cabinet-top.json')
-	fetchAndCreate('west-cabinet-base.json')
+	fetchAndCreate('./west-cabinet-top.json')
+	fetchAndCreate('./west-cabinet-base.json')
 
-	fetchAndCreate('center.json')
-	fetchAndCreate('left-field.json')
+	fetchAndCreate('./center.json')
+	fetchAndCreate('./left-field.json')
 
-	fetchAndCreate('right-wall.json')
+	fetchAndCreate('./right-wall.json')
 
 
 
-	fetchAndCreate('west-cabinet-shadow.json', doNotCategory)
-	fetchAndCreate('east-cabinet-shadow.json', doNotCategory)
+	fetchAndCreate('./west-cabinet-shadow.json', doNotCategory)
+	fetchAndCreate('./east-cabinet-shadow.json', doNotCategory)
 
-	fetchAndCreate('west-cabinet-door.json', doNotCategory, 'green')
-	fetchAndCreate('west-cabinet-corner.json', doNotCategory, 'white')
+	fetchAndCreate('./west-cabinet-door.json', doNotCategory, 'green')
+	fetchAndCreate('./west-cabinet-corner.json', doNotCategory, 'white')
 
-	fetchAndCreate('east-cabinet-door.json', doNotCategory, 'green')
-	fetchAndCreate('east-cabinet-corner.json', doNotCategory, 'white')
+	fetchAndCreate('./east-cabinet-door.json', doNotCategory, 'green')
+	fetchAndCreate('./east-cabinet-corner.json', doNotCategory, 'white')
 
 	// add mouse control
 	const mouse = Mouse.create(Render.canvas);
