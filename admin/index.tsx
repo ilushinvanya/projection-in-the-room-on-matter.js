@@ -27,12 +27,12 @@ console.log(`Listening on localhost:${server.port}`);
 console.log(`Open http://localhost:${server.port}/index.html`);
 
 const save = async (path: string, array: any[] = []) => {
-    const file = Bun.file('../RoomMapP5/models/' + path);
+    const file = Bun.file('../main/models/' + path);
     return await Bun.write(file, JSON.stringify(array, null, 2));
 }
 
 const read = async (path: string) => {
-    const file = Bun.file('../RoomMapP5/models/' + path);
+    const file = Bun.file('../main/models/' + path);
     const pkg = await file.json();
     return JSON.stringify(pkg);
 }
