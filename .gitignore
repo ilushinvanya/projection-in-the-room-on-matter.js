@@ -1,0 +1,11 @@
+.idea
+GridEditingP5/package-lock.json
+*.psd
+node_modules/
+.npm
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.DS_Store
